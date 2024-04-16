@@ -1,1 +1,0 @@
-/opt/anaconda3/envs/InsurveyorEnvironment/bin/insurveyor.py --threads 4 ./Reads/alignment_bwamem2.sort.bam InsurveyorOutputs ./ReferenceGenome/all_genomes_BWA.fsa
