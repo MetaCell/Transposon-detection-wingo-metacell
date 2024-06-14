@@ -1,5 +1,5 @@
 # TransposonDetection
-Test Repository for detecting transposons from FastQ files.
+Repository for detecting transposon insertions in yeast from FastQ files.
 
 ## Pipeline Walkthrough
 There are four stages for this pipeline: QC, Trimming, Alignment, and finally Transposon Detection. It makes the assumption that this is paired end data. NB Due to conflicts in dependencies the pipeline is split in two, the first portion (`FilterAlign.sh` uses the environment `alignment_environment.yml` for conda or `alignment_requirements.txt` for others such as virtual environment).
